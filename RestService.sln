@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestService", "RestService\RestService.csproj", "{D553046F-B309-40ED-AC80-DC197B9AF2AE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "restdb", "restdb\restdb.sqlproj", "{62313BCF-6861-478F-9E3F-5C4BE97C8C51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D553046F-B309-40ED-AC80-DC197B9AF2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D553046F-B309-40ED-AC80-DC197B9AF2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D553046F-B309-40ED-AC80-DC197B9AF2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D553046F-B309-40ED-AC80-DC197B9AF2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62313BCF-6861-478F-9E3F-5C4BE97C8C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62313BCF-6861-478F-9E3F-5C4BE97C8C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62313BCF-6861-478F-9E3F-5C4BE97C8C51}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{62313BCF-6861-478F-9E3F-5C4BE97C8C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62313BCF-6861-478F-9E3F-5C4BE97C8C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62313BCF-6861-478F-9E3F-5C4BE97C8C51}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
