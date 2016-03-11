@@ -1,7 +1,10 @@
 ﻿CREATE TABLE [dbo].[objects]
 (
-	[Id]       BIGINT NOT NULL PRIMARY KEY,
-	[Name]     NVARCHAR(MAX) NOT NULL,
-	[ParentId] BIGINT NULL,
-	[Type]     NVARCHAR(50) NOT NULL
+	[Oid]  BIGINT NOT NULL PRIMARY KEY,
+	[Hid]  HIERARCHYID NOT NULL,
+	[Type] NVARCHAR(MAX) NOT NULL, 
+	[level] AS Hid.GetLevel() PERSISTED
 )
+
+GO
+
