@@ -1,10 +1,14 @@
-﻿CREATE TABLE [dbo].[objects]
-(
-	[Oid]  BIGINT NOT NULL PRIMARY KEY,
-	[Hid]  HIERARCHYID NOT NULL,
-	[Type] NVARCHAR(MAX) NOT NULL, 
-	[level] AS Hid.GetLevel() PERSISTED
-)
+﻿CREATE TABLE [dbo].[objects] (
+    [Oid]   BIGINT IDENTITY(1,1) NOT NULL,
+    [Hid]   [sys].[hierarchyid]  NOT NULL,
+    [Type]  NVARCHAR (MAX)       NOT NULL,
+    [level] AS                  ([Hid].[GetLevel]()) PERSISTED,
+    PRIMARY KEY CLUSTERED ([Oid] ASC)
+);
+
+
+
+
 
 GO
 

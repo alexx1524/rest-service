@@ -59,14 +59,20 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="Views" />
+    <Folder Include="Functions" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\User Defined Types\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\objects.sql" />
-    <Build Include="Tables\attributes.sql" />
-    <Build Include="Views\TestView.sql" />
-    <Build Include="Tables\svalues.sql" />
-    <Build Include="Tables\fvalues.sql" />
-    <Build Include="Tables\dtvalues.sql" />
+    <Build Include="Functions\GetObjectSubitems.sql" />
+    <Build Include="Functions\GetObjectWithAttributes.sql" />
+    <Build Include="Functions\GetPumps.sql" />
+    <Build Include="dbo\Stored Procedures\AddObject.sql" />
+    <Build Include="dbo\User Defined Types\Attrs.sql" />
+    <Build Include="dbo\Stored Procedures\AddObjectWithAttributes.sql" />
+    <Build Include="Tables\attrs.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="restdb.refactorlog" />
