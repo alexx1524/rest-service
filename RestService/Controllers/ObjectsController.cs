@@ -12,7 +12,7 @@ namespace RestService.Controllers
 {
     public class ObjectsController : ApiController
     {
-        const string ConnString = "Data Source = localhost; Initial Catalog = restdb; User Id = sa; Password = lexxus1524";
+        const string ConnString = "Data Source = localhost; Initial Catalog = restdb; User Id = sa; Password = pwd";
 
         //Получение объекта с атрибутами
         // GET: api/Objects/5
